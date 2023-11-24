@@ -8,7 +8,7 @@ class Padre:
     def reir(self):
         return "Jajaja"
 
-    def hobby(self):
+    def hobbies(self):
         return "Pinto madera en mi tiempo libre"
 
     def caminar(self):
@@ -30,7 +30,8 @@ print(hijo.deporte_preferido)  # Se imprimirá "tenis"
 
 # Llamar a los métodos heredados de Padre
 print(hijo.reir())              # Se imprimirá "Jajaja"
-print(hijo.caminar())           # Se imprimirá "Caminando con pasos largos y rápidos"
+print(hijo.caminar())    
+print(hijo.hobbies())       # Se imprimirá "Caminando con pasos largos y rápidos"
 
 # Llamar al método hobby de Hijo (sobrescrito)
 print(hijo.hobby())             # Se imprimirá "Juego videojuegos en mi tiempo libre"
